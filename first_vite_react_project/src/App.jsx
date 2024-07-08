@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+
+import Joke from './components/joke.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-     
+     <div className='App'>
+      <h1>Joke Generator</h1>
+      <Joke/>
+     </div>
        
     </>
   )
