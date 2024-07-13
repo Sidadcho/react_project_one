@@ -3,7 +3,7 @@ import './assets/button.css'
  
 const Button = (props) => {
     return <button onClick={props.callApi}>
-        Click to generate a joke.
+        Click to laugh.
     </button>;
 }
  
