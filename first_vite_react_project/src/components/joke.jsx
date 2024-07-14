@@ -1,7 +1,8 @@
 import React from "react";
+import { useState } from "react";
   
 import Button from "../Button";
-import JokeCss from "../assets/JokeCss.css"
+import "../assets/JokeCss.css"
 
 const Joke = () => {
     const [Joke, setJoke] = useState("");
